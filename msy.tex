@@ -20,7 +20,7 @@
 
 
 % 调整页面出血
-\usepackage[scale=0.83]{geometry}
+\usepackage[scale=0.85]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}           % 如果你希望改变日期栏的宽度
 
 \usepackage{fontspec}
@@ -80,11 +80,25 @@
 % \begin{CJK}{UTF8}{gbsn}                       % 详情参阅CJK文件包
 \maketitle
 
-\section{教育}
-\cventry{2014.9\ –\ 2017.6}{硕士}{中国地质大学}{武汉}{\textit{4.13}}{设计学}  % 第3到第6编码可留白
-\cventry{2010.9\ –\ 2014.6}{学士}{中国地质大学}{武汉}{\textit{3.62}}{工业设计}
 
 \section{工作经历}
+\cventry
+{2020.7\ –\ 至\ \ \ 今}
+{前端开发}
+{\href{https://docs.qq.com}{\underline{腾讯文档}}}
+{北京}
+{}
+{
+  \begin{itemize}
+  \item 参与 PPT 项目的日常开发与维护
+  \item
+    参与 Electron 桌面端的开发，主要负责系统设置、快捷键、\\
+    macOS 与 Windows 安装文件的打包签名认证，并配置自动化构建流程
+  \end{itemize}
+}
+
+\vspace{5pt}
+
 \cventry
 {2017.7\ –\ 2020.7}
 {前端开发工程师}
@@ -98,20 +112,24 @@
   \item 在项目里推动了 TypeScript 的应用（目前 TS 占全部 JS 文件比例 1/4）
   \item 不断优化前端文件 Gulp / Webpack 构建流程，从 Python 基本迁移至 Node.js
   \item 探索适宜的异步并发解决方案（Promise, React Hooks, RxJS Observable）
-  \item 2019 年开始领导前端团队，工作中执行严格的 Code Review 规范
+  \item 2019 年开始领导前端团队，工作中执行严格的 Code Review 规范\\
+    （2016.10\ –\ 2017.1 为实习）
   \end{itemize}
 }
-\cventry
-{2016.10\ –\ 2017.1}
-{前端实习生}
-{\href{https://read.douban.com}{\underline{豆瓣阅读}}}
-{北京}
-{}
-{
-  \begin{itemize}
-  \item 参与豆瓣阅读 web / mobile 内网页前端的开发测试上线工作
-  \end{itemize}
-}
+
+\vspace{5pt}
+
+% \cventry
+% {2016.10\ –\ 2017.1}
+% {前端实习生}
+% {\href{https://read.douban.com}{\underline{豆瓣阅读}}}
+% {北京}
+% {}
+% {
+%   \begin{itemize}
+%   \item 参与豆瓣阅读 web / mobile 内网页前端的开发测试上线工作
+%   \end{itemize}
+% }
 \cventry
 {2016.3\ –\ 2016.7}
 {前端实习生}
@@ -170,6 +188,12 @@
     \underline{网址}
   }
 }
+
+
+\section{教育}
+\cventry{2014.9\ –\ 2017.6}{硕士}{中国地质大学}{武汉}{设计学}{}  % \textit{4.13}
+\cventry{2010.9\ –\ 2014.6}{学士}{中国地质大学}{武汉}{工业设计}{} % \textit{3.62}
+
 % \cvitemwithcomment{2015}{中国地质大学(武汉)机电学院网站}{网页交互及前端开发}
 % \cvitemwithcomment{2014}{VDP.ICIDO软件在工业设计教学中的应用}{虚拟仿真软件应用}
 % \cvitemwithcomment{2013}{某免费停车概念APP原型}{原型设计制作}
@@ -186,14 +210,14 @@
 
 \section{技能}
 \cvline{框架/库}{React / Backbone / Formik / RxJS / Cycle.js / Svelte}
-\cvline{工具}{Gulp / Webpack / Jest(a bit)}
+\cvline{工具}{Git / Gulp / Webpack / Jest}
 \cvline{语言}{TypeScript / Python / GraphQL / Rust(green hand) /
   \href{https://github.com/msyfls123/portfolio}{\underline{\LaTeX{}}}
   /
   \href{https://msyfls123.github.io/blog/images/asfaloth.jpeg}{\underline{小程序}
   }
 }
-\cvline{学习}{WASM /  Docker / Processing / Qt}
+\cvline{学习}{WebAssembly /  PWA / Processing / Qt}
 
 % \cvitem{前端开发}{\small{熟练应用HTML/CSS/Javascript编写页面，掌握jQuery/AngularJS等前端框架}}
 % \cvitem{后端开发}{\small{熟悉Django/Python框架，能够部署Nginx/MySQL服务器}}
@@ -214,7 +238,7 @@
 }、阅读\ 、
 \href{https://www.douban.com/photos/album/155070126/}{
   \underline{设计 or 画画}
-}、抖音重度使用但不成瘾者
+}
 }}
 \cvitem{一句话}{\small{
 \href{https://www.zhihu.com/question/30068727/answer/46664009}{
