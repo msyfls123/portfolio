@@ -20,7 +20,7 @@
 
 
 % 调整页面出血
-\usepackage[scale=0.85]{geometry}
+\usepackage[scale=0.9]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}           % 如果你希望改变日期栏的宽度
 
 \usepackage{fontspec}
@@ -41,7 +41,7 @@
 % 个人信息
 \name{马申彦}{}
 \title{前端工程师}                     % 可选项、如不需要可删除本行
-\address{北京市·朝阳区}                          % 可选项、如不需要可删除本行
+\address{北京市·海淀区}                          % 可选项、如不需要可删除本行
 \phone[mobile]{+86~18771058712}              % 可选项、如不需要可删除本行
 % \phone[fixed]{+2~(345)~678~901}               % 可选项、如不需要可删除本行
 % \phone[fax]{+3~(456)~789~012}                 % 可选项、如不需要可删除本行
@@ -83,17 +83,18 @@
 
 \section{工作经历}
 \cventry
-{2020.7\ –\ 至\ \ \ 今}
+{2020.7\ \ –\ \ 至\ 今}
 {前端开发}
 {\href{https://docs.qq.com}{\underline{腾讯文档}}}
 {北京}
 {}
 {
   \begin{itemize}
-  \item 参与 PPT 项目的日常开发与维护
-  \item
-    参与 Electron 桌面端的开发，主要负责系统设置、快捷键、\\
-    macOS 与 Windows 安装文件的打包签名认证，并配置自动化构建流程
+  \item 负责腾讯文档桌面端的日常开发与维护，在职期间获得绩效 Outstanding 一次
+  \item 创新性地将 React Portal 与 Electron 结合，打造无加载延迟的多窗口体验
+  \item 通过 IPC 进行 Electron 多实例通讯实现腾讯文档多账号同时登录使用，共享剪贴板
+  \item 管理桌面端 CI/CD 流程，实现无人值守自动构建和半自动化发布
+  \item 基于 Playwright 建立 Electron 的 UI 自动化测试
   \end{itemize}
 }
 
@@ -112,8 +113,7 @@
   \item 在项目里推动了 TypeScript 的应用（目前 TS 占全部 JS 文件比例 1/4）
   \item 不断优化前端文件 Gulp / Webpack 构建流程，从 Python 基本迁移至 Node.js
   \item 探索适宜的异步并发解决方案（Promise, React Hooks, RxJS Observable）
-  \item 2019 年开始领导前端团队，工作中执行严格的 Code Review 规范\\
-    （2016.10\ –\ 2017.1 为实习）
+  \item 2019 年开始领导前端团队，2016.10\ –\ 2017.1 为实习
   \end{itemize}
 }
 
@@ -169,6 +169,8 @@
     \underline{网址}
   }
 }
+\cvitemwithcomment
+{第一届 QQ Tech 技术周演讲}{腾讯文档桌面端跨平台开发实践}{}
 \cvitemwithcomment{InfoQ 采访}{掌控前端数据流，响应式编程让你看得更远}{
   \href{https://www.infoq.cn/article/kzyb9IEj6iyHegBNrLgd}{
     \underline{网址}
@@ -209,15 +211,18 @@
 % \cvitemwithcomment{学校}{荣誉称号}{2012校优秀学生干部/2013校优秀共青团员}
 
 \section{技能}
-\cvline{框架/库}{React / Backbone / Formik / RxJS / Cycle.js / Svelte}
-\cvline{工具}{Git / Gulp / Webpack / Jest}
-\cvline{语言}{TypeScript / Python / GraphQL / Rust(green hand) /
+\cvline{框架/库}{React / RxJS / Cycle.js / Svelte}
+\cvline{跨端}{Electron /
+  \href{https://github.com/msyfls123/Asfaloth}{\underline{NodeGui}} /
+  \href{https://github.com/msyfls123/rust-gui}{\underline{Druid(Rust)}}}
+\cvline{工具}{Git / Gulp / Webpack / Rollup / Jest}
+\cvline{语言}{TypeScript / Rust / Python / GraphQL /
   \href{https://github.com/msyfls123/portfolio}{\underline{\LaTeX{}}}
   /
   \href{https://msyfls123.github.io/blog/images/asfaloth.jpeg}{\underline{小程序}
   }
 }
-\cvline{学习}{WebAssembly /  PWA / Processing / Qt}
+\cvline{学习}{WebAssembly Interface / Node.js addons}
 
 % \cvitem{前端开发}{\small{熟练应用HTML/CSS/Javascript编写页面，掌握jQuery/AngularJS等前端框架}}
 % \cvitem{后端开发}{\small{熟悉Django/Python框架，能够部署Nginx/MySQL服务器}}
