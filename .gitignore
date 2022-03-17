@@ -4,3 +4,5 @@
 *.eps
 *.out
 *.gz
+*.fdb_latexmk
+*.fls
