@@ -3,5 +3,6 @@
         "activityBar.background": "#08342B",
         "titleBar.activeBackground": "#0B493C",
         "titleBar.activeForeground": "#F2FDFB"
-    }
+    },
+    "latex-workshop.latex.recipe.default": "lastUsed"
 }

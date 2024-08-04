@@ -7,7 +7,7 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[11pt,a4paper,roman]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[12pt,a4paper,roman]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv 主题
 \moderncvstyle{oldstyle}                        % 选项参数是 ‘casual’, ‘classic’, ‘oldstyle’ 和 ’banking’
@@ -42,7 +42,8 @@
 \name{马申彦}{}
 \title{前端工程师}                     % 可选项、如不需要可删除本行
 % \address{北京市·海淀区}                          % 可选项、如不需要可删除本行
-\address{无锡市·梁溪区}                          % 可选项、如不需要可删除本行
+% \address{无锡市·梁溪区}                          % 可选项、如不需要可删除本行
+\address{上海市·浦东新区}
 \phone[mobile]{+86~18771058712}              % 可选项、如不需要可删除本行
 % \phone[fixed]{+2~(345)~678~901}               % 可选项、如不需要可删除本行
 % \phone[fax]{+3~(456)~789~012}                 % 可选项、如不需要可删除本行
@@ -84,6 +85,24 @@
 
 \section{工作经历}
 \cventry
+{2023.10\ \ –\ \ 至\ 今}
+{高级前端工程师}
+{\href{https://write.qq.com}{\underline{阅文集团·作家助手}}}
+{上海}
+{}
+{
+  \begin{itemize}
+  \item 负责横跨 PC Electron、移动端 SPA、传统模板页面等全前端品类的架构设计
+  \item CI/CD 流水线的搭建，保障所有前端项目周均 20 次以上的发布频率
+  \item 从零搭建了基于 shadcn-ui / TailwindCSS 的 \href{https://stawritecdn.yuewen.com/document/docs/components/index.html}{\underline{React \& Vue 组件库}}
+  \item 调研并落地了包括“离在线 TTS 朗读”、“Web 远程调试”、“思维导图”等重点功能
+  \item 日常评审组内低级别工程师的代码与架构设计，保障团队代码质量
+  \end{itemize}
+}
+
+\vspace{5pt}
+
+\cventry
 {2020.7\ \ –\ 2023.8}
 {高级前端开发工程师}
 {\href{https://docs.qq.com}{\underline{腾讯文档}}}
@@ -119,8 +138,8 @@
   \item 使用 \href{https://graphene-python.org/}{Graphene} 从零搭建 GraphQL 服务端，统一了书籍、用户信息的查询
   \item 在项目里推动了 TypeScript 的应用和规范建设，重构了近 30\% 的历史代码
   % \item 不断优化前端文件 Gulp / Webpack 构建流程，从 Python 基本迁移至 Node.js
-  % \item 探索适宜的异步并发解决方案（Promise, React Hooks, RxJS Observable）
-  \item 2019 年开始领导前端团队，2016.10\ –\ 2017.1 为实习
+  \item 探索适宜的异步并发解决方案（Promise, React Hooks, RxJS Observable）
+  % \item 2019 年开始领导前端团队，2016.10\ –\ 2017.1 为实习
   \end{itemize}
 }
 
@@ -197,6 +216,11 @@
     \underline{仓库}
   } 
 }
+\cvitemwithcomment{}{AMD 模块 React 项目模板}{
+  \href{https://github.com/msyfls123/amd-boilerplate}{
+    \underline{仓库}
+  }
+}
 \cvitemwithcomment{}{企业网站开发与配置}{
   \href{https://derui-tech.com/}{
     \underline{网址}
@@ -228,12 +252,12 @@
 % \cvitemwithcomment{学校}{荣誉称号}{2012校优秀学生干部/2013校优秀共青团员}
 
 \section{技能}
-\cvline{框架/库}{React / RxJS / Cycle.js / Svelte}
+\cvline{框架/库}{React / Vue3 / RxJS / Cycle.js / Svelte}
 \cvline{跨端}{
   \href{https://github.com/msyfls123/diablo2-wiki}{\underline{Electron}} /
   \href{https://github.com/msyfls123/Asfaloth}{\underline{NodeGui}} /
   \href{https://github.com/msyfls123/rust-gui}{\underline{Druid(Rust)}}}
-\cvline{工具}{Git / Gulp / Webpack / Rollup / Jest}
+\cvline{工具}{Git / Gulp / Webpack / Rollup / Vite / Jest}
 \cvline{语言}{TypeScript / Rust / Python / GraphQL / C++（一点点） /
   \href{https://github.com/msyfls123/portfolio}{\underline{\LaTeX{}}}
   /
